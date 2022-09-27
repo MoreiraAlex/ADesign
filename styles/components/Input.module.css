@@ -1,0 +1,16 @@
+.input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.input::placeholder{
+    font-weight: bold;
+    vertical-align: text-bottom;
+}

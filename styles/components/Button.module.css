@@ -1,0 +1,29 @@
+.Btn{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white);
+    border: none;
+    box-shadow: 1.5px 1.5px 3px var(--color-light);;
+    
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Btn:hover{
+    box-shadow: 2px 2px 4px var(--color-light);
+    background-color: hsl(0, 0%, 96%);
+    transition: all 700ms;
+    cursor: pointer;
+}
+
+.Btn:active{
+    box-shadow: 1px 1px 2px var(--color-light);
+    background-color: var(--white);
+    transition: all 200ms;
+}
