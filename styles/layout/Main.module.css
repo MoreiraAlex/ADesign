@@ -3,7 +3,7 @@
     height: 115vh;
     background-image: url('../../public/background1.jpg');
     background-size: cover;
-    background-position: 0 -100px;
+    background-position: 0 15%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     filter: grayscale(100%);    
@@ -38,11 +38,12 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--white);
-    flex-basis: 26vw;
+    flex-basis: 25vw;
 }
 
 .area1 .area{
     width: 25vw;
+    min-width: 350px;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -50,7 +51,7 @@
     gap: 5%;
     position: relative;
     padding: 2% 1%;
-    margin-bottom: -100px;
+    margin-bottom: -130px;
 }
 
 .area1 .area::after{
@@ -102,7 +103,7 @@
     height: 25vh;
     background-color: var(--black);
     display: flex;
-    padding-left: 10%;
+    padding-left: 3rem;
     flex-direction: row;
     align-items: center;
     z-index: 1;
@@ -121,7 +122,7 @@
     height: 100vh;
     background-image: url('../../public/background2.jpg');
     background-size: cover;
-    background-position: 0 -200px;
+    background-position: 0 20%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -129,7 +130,7 @@
     flex-direction: column;
     justify-content: space-around;
     position: relative;
-    padding: 30px 100px;
+    padding: 1% 10%;
 }
 
 .content2::after {
@@ -209,7 +210,6 @@
 
 .line{
     position: relative;
-    width: 100px;
 }
 
 .line::after {
@@ -218,7 +218,58 @@
     content: '';
     border-bottom: 2px solid var(--white);
     width: 70vw;
-    height: 100%;
-    left: 150px;
+    left: 5vw;
     top: 60px;
+}
+
+@media (max-width: 900px) {
+
+    .area2 p, .area2 div{
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .area1 h2{
+        display: none;
+    }
+
+    .area1 .area h2{
+        display: block;
+    }
+
+    
+}
+
+@media (max-width: 650px) {
+
+    .area1 .area form{
+        width: 90%;
+        height: 90%;
+    }
+
+    .content2 p, .content2 h3 {
+        font-size: 70%;
+    }
+
+    .content2 h2 {
+        font-size: 100%;
+    }
+
+    .third ul li p{
+        /* font-size: 55%; */
+    }
+
+    .line::after {
+        top: 8vw;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .third ul li p{
+        font-size: 55%;
+    }
+
 }
