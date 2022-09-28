@@ -257,10 +257,6 @@
         font-size: 100%;
     }
 
-    .third ul li p{
-        /* font-size: 55%; */
-    }
-
     .line::after {
         top: 8vw;
     }
