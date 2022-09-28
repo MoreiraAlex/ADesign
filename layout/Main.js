@@ -40,13 +40,13 @@ export default function Main() {
         <div className={styles.first}>
           <div>
             <p>
-              “A parceria com a ADesign veio num momento importante. Em menos de um ano vimos ganhos extraordinários.”
+              “A parceria com a AMAgency veio num momento importante. Em menos de um ano vimos ganhos extraordinários.”
             </p>
             <h3>Juliana U., Sócio fundador, TST</h3>
           </div>
           <div>
             <p>
-              “A ADesign tem uma proposta de trabalho muito legal, são bastante organizados e muito atualizados com as tendências de hoje.”
+              “A AMAgency tem uma proposta de trabalho muito legal, são bastante organizados e muito atualizados com as tendências de hoje.”
             </p>
             <h3>Danielle B., Fundador do BcB</h3>
           </div>

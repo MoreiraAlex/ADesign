@@ -5,7 +5,7 @@ import Logo from '../components/Logo'
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Logo tittle='ADesign' color='#ffff'/>
+      <Logo tittle='AMAgency' color='#ffff'/>
     </header>
   )
 }
