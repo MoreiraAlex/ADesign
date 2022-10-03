@@ -34,7 +34,7 @@ Pré-requisitos: git, npm / yarn
 # clonar repositório
 git clone https://github.com/MoreiraAlex/AMAgency.git
 
-# entrar na pasta do projeto front end web
+# entrar na pasta do projeto
 cd AMAgency
 
 # instalar dependências
