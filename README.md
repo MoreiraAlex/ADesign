@@ -1,5 +1,6 @@
 # AMAgency
-(https://github.com/MoreiraAlex/AMAgency/blob/main/LICENSE) 
+![GitHub](https://img.shields.io/github/license/MoreiraAlex/AMAgency)
+![GitHub language count](https://img.shields.io/github/languages/count/MoreiraAlex/AMAgency)
 
 # Sobre o projeto
 
