@@ -11,7 +11,7 @@ export default function Head() {
 
       <meta name="keywords" content="o que é leads no marketing digital, Marketing digital, Agência de marketing, Agência, Fundador, gestor de trafego, Home office, vivendo de home office, amagency, redes sociais, landing page, criação de sites, empresa de criação de sites, design, web design"/>
 
-      <meta name="google-site-verification" content="Adnx1WQhPC-oB6FllxAbyAF6sCxqANi9kRZTvaPDbsA" />
+      <meta name="google-site-verification" content="HxdktV6nr4Ei-DNn_fjAPh2THEuhqRauoNLlPLxgFgs" />
 
       <link rel="canonical" href="https://www.amagency.ga/" />
       <link rel="icon" href="/favicon.png" />
