@@ -35,7 +35,7 @@ Pré-requisitos: git, npm / yarn
 git clone https://github.com/MoreiraAlex/AMAgency.git
 
 # entrar na pasta do projeto front end web
-cd front-web
+cd AMAgency
 
 # instalar dependências
 npm install
