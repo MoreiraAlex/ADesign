@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-https://www.amagency.ga/
+https://amagency.alexmoreira.dev.br/
 
 AMAgency é uma aplicação frontend web construída para fins de estudo, tendo seu layout tambem responsivo.
 
