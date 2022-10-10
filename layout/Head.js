@@ -1,18 +1,33 @@
 import NextHead from 'next/head'
+import { useEffect } from 'react'
+import TagManager from 'react-gtm-module'
 
 export default function Head() {
 
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  // window.dataLayer = window.dataLayer || [];
+  // function gtag(){dataLayer.push(arguments);}
+  // gtag('js', new Date());
 
-  gtag('config', 'G-VEN9Z7QGTN');
+  // gtag('config', 'G-VEN9Z7QGTN');
+
+  useEffect(() => {
+
+    const tagManagerArgs = {
+      gtmId: 'G-VEN9Z7QGTN'
+    }
+  
+    TagManager.initialize(tagManagerArgs)
+
+
+  },[])
+
+  
 
   
   return (
     <NextHead>
       {/* <!-- Google tag (gtag.js) --> */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEN9Z7QGTN"></script>
+      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEN9Z7QGTN"></script> */}
       <meta http-equiv="content-language" content="pt-br" />
       <meta name="author" content="Alex Moreira" />
       <meta name="reply-to" content="alexmoreira.dev@gmail.com" />
