@@ -1,17 +1,18 @@
 import NextHead from 'next/head'
 
 export default function Head() {
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VEN9Z7QGTN');
+
+  
   return (
     <NextHead>
-      <!-- Google tag (gtag.js) -->
+      {/* <!-- Google tag (gtag.js) --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEN9Z7QGTN"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-VEN9Z7QGTN');
-      </script>
       <meta http-equiv="content-language" content="pt-br" />
       <meta name="author" content="Alex Moreira" />
       <meta name="reply-to" content="alex.i.mooreira@gmail.com" />
